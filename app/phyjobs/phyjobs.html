@@ -58,13 +58,13 @@
             </div>
 
         <!-- item list -->
-        <div ng-repeat="result in results | filter:search.type | filter:search.salary.type1 | filter:search.salary.type2 | filter:search.time.type1 | filter:search.time.type2">
+        <div ng-repeat="job in appliedjobs | filter:search.type | filter:search.salary.type1 | filter:search.salary.type2 | filter:search.time.type1 | filter:search.time.type2">
             <div class="panel panel-default">
-                <div class="panel-heading"><a href="">{{result.timeslot}} at {{result.facility}}</a></div>
+                <div class="panel-heading"><a href="">{{job.timeslot}} at {{job.facility}}</a></div>
             </div>
-            <p>{{result.description}}</p>
-            <p>Salary: {{result.salary}} ({{result.jobtype}})</p>
-            <p><a class="btn btn-default" href="/#/phyjobs">Apply for this job</a>
+            <p>{{job.description}}</p>
+            <p>Salary: {{job.salary}} ({{job.jobtype}})</p>
+            <p><button type="button" class="btn btn-default">Apply for this job</button>
             <hr>
         </div>
 

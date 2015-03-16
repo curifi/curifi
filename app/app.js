@@ -24,6 +24,10 @@ angular
         templateUrl: 'physicians/physicians.html',
         controller: 'PhysiciansCtrl'
       })
+      .when('/phyjobs', {
+        templateUrl: 'phyjobs/phyjobs.html',
+        controller: 'PhyjobsCtrl'
+      })
       .when('/about', {
         templateUrl: 'about/about.html',
         controller: 'AboutCtrl'
