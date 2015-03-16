@@ -16,7 +16,7 @@ angular
   ])
   .config(function ($routeProvider) {
     $routeProvider
-      .when('/', {
+      .when('/facilities', {
         templateUrl: 'facilities/facilities.html',
         controller: 'FacilitiesCtrl'
       })
