@@ -23,7 +23,8 @@ angular.module('curifiApp')
             "salary" : "$$",
             "speciality" : "Cardiology",
             "from" : "1/1/2015",
-            "to" : "1/1/2016"
+            "to" : "1/1/2016",
+            "id" : "111"
         },
         {
             "facility" : "Palo Alto Medical Foundation",
@@ -35,7 +36,8 @@ angular.module('curifiApp')
             "salary" : "$$$$",
             "speciality" : "Neurology",
             "from" : "1/1/2015",
-            "to" : "1/1/2016"
+            "to" : "1/1/2016",
+            "id" : "222"
         },
         {
             "facility" : "O'Connor Hospital",
@@ -47,7 +49,8 @@ angular.module('curifiApp')
             "salary" : "$$$$",
             "speciality" : "Cardiology",
             "from" : "1/1/2015",
-            "to" : "1/1/2016"
+            "to" : "1/1/2016",
+            "id" : "333"
         }
     ]
   });

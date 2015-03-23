@@ -1,7 +1,7 @@
 <div class="container-fluid" id="main">
 <h1>My Saved Locums</h1>
     <div class="row">
-        <div class="col-xs-8" id="left">
+        <div post-submit-callback>
 
             <div class="accordion" id="accordion2">
                 <div class="accordion-group">
@@ -44,7 +44,7 @@
         <!-- item list -->
         <div ng-repeat="job in appliedjobs | filter:search.type | filter:search.salary.type1 | filter:search.salary.type2 | filter:search.time.type1 | filter:search.time.type2">
             <hr>
-            <h4><a href="">{{job.timeslot}} at {{job.facility}}</a></h4>
+            <h4><a href="/#/jobs/{{job.id}}">{{job.timeslot}} at {{job.facility}}</a></h4>
             <p>Salary: {{job.salary}} ({{job.jobtype}})</p>
             <p>Applied on 3/2/2015</p>
         </div>

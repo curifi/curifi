@@ -32,6 +32,10 @@ angular
         templateUrl: 'about/about.html',
         controller: 'AboutCtrl'
       })
+      .when('/jobs/:id', {
+        templateUrl: 'job/job.html',
+        controller: 'JobCtrl'
+      })
       .when('/', {
         templateUrl: 'home/home.html',
         controller: 'HomeCtrl'
